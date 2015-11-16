@@ -11,7 +11,7 @@ import com.locationlabs.porchlight.util.pubnub.PubNubUtil;
  */
 public class PorchlightApplication extends Application {
 
-   private static final boolean MOCKED_APP = false;
+   private static final boolean MOCKED_APP = true;
 
    private static PorchlightApplication mInstance;
 
