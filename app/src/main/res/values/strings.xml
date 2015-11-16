@@ -1,0 +1,28 @@
+<resources>
+   <string name="app_name">Porchlight</string>
+
+   <string name="progress_dialog_loading">Loading…</string>
+   <string name="set_location_title">Pick a PLACE</string>
+   <string name="set_location_address_hint">Type in Address</string>
+   <string name="set_location_continue_button">NEXT</string>
+   <string name="set_activity_window_from_hint">From…</string>
+   <string name="set_activity_window_separator">—</string>
+   <string name="set_activity_window_to_hint">To…</string>
+   <string name="set_activity_window_title">Set a SCHEDULE</string>
+   <string name="set_activity_window_continue_button">NEXT</string>
+   <string name="set_flow_name_title">PERSON</string>
+   <string name="set_flow_name_mdn_hint">Type Number to Add…</string>
+   <string name="set_flow_name_enter_name">Name your flow…</string>
+   <string name="set_flow_name_continue_button">SAVE</string>
+   <string name="get_started_continue_button">Welcome</string>
+   <string name="main_activity_title">PORCHLIGHT</string>
+   <string name="main_activity_demo_child_name">AIDAN\'S FLOW</string>
+   <string name="main_activity_no_flow_message">You have no flow.</string>
+   <string name="main_activity_create_button">CREATE</string>
+   <string name="main_list_name_placeholder">Name Placeholder</string>
+   <string name="handle_call_demo_user_call_received">AIDAN is receiving a Call</string>
+   <string name="handle_call_demo_user_flow_name">STATUE OF LIBERTY</string>
+   <string name="handle_call_allow_button">Allow</string>
+   <string name="handle_call_block_button">Block</string>
+   <string name="handle_call_answer_button">Answer</string>
+</resources>

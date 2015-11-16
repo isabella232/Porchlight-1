@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <TextView
+      android:id="@+id/flow_name"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/activity_horizontal_margin"
+      android:textSize="@dimen/standard_font_size"
+      android:textAllCaps="true"
+      android:text="@string/main_list_name_placeholder"/>
+
+   <ImageView
+      android:id="@+id/contact_watchlist_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/icon_flows_height"
+      android:layout_marginLeft="@dimen/margin_icons_flow"
+      android:layout_marginRight="@dimen/margin_icons_flow"
+      android:src="@drawable/ic_person_gray"/>
+
+   <ImageView
+      android:id="@+id/activity_window_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/icon_flows_height"
+      android:layout_marginLeft="@dimen/margin_icons_flow"
+      android:layout_marginRight="@dimen/margin_icons_flow"
+      android:src="@drawable/ic_time_gray"/>
+
+
+   <ImageView
+      android:id="@+id/kid_location_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/icon_flows_height"
+      android:layout_marginLeft="@dimen/margin_icons_flow"
+      android:layout_marginRight="@dimen/margin_icons_flow"
+      android:src="@drawable/ic_location_gray"/>
+
+   <Switch
+      android:id="@+id/flow_switch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/activity_horizontal_margin"
+      android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+</LinearLayout>

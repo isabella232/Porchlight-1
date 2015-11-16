@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.locationlabs.porchlight" >
+
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+   <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+   <application
+      android:name=".PorchlightApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="false"
+      android:theme="@style/AppTheme" >
+      <activity android:name=".activity.getstarted.GetStartedActivity"
+                android:screenOrientation="portrait">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+
+      <activity android:name=".activity.main.MainActivity"
+                android:screenOrientation="portrait"/>
+
+      <activity android:name=".activity.handlecall.HandleCallActivity"
+                android:screenOrientation="portrait" />
+
+      <activity android:name=".activity.setlocation.SetLocationActivity"
+                android:screenOrientation="portrait" />
+
+      <activity android:name=".activity.setactivitywindow.SetActivityWindowActivity"
+                android:screenOrientation="portrait" />
+
+      <activity android:name=".activity.setflowname.SetFlowNameActivity"
+                android:screenOrientation="portrait" />
+
+      <receiver android:name=".util.pubnub.BootReceiver" >
+         <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+         </intent-filter>
+      </receiver>
+
+      <service android:name=".util.pubnub.PubNubService" />
+
+      <!-- TODO: get an API key or maps won't work -->
+      <meta-data
+         android:name="com.google.android.geo.API_KEY"
+         android:value="@string/google_maps_key" />
+
+   </application>
+
+</manifest>

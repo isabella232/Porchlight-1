@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:layout_marginLeft="@dimen/card_horizontal_margin"
+   android:layout_marginRight="@dimen/card_horizontal_margin"
+   android:layout_marginBottom="@dimen/card_vertical_margin"
+   tools:context=".activity.setflowname.SetFlowNameActivity">
+
+   <RelativeLayout
+      android:id="@+id/title_box"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/block_height"
+      android:layout_alignParentTop="true">
+
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:text="@string/set_flow_name_title"
+         android:textSize="@dimen/flow_title_text_size"/>
+
+   </RelativeLayout>
+
+   <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/bg_rounded_corner_azure"
+      android:layout_below="@id/title_box">
+
+      <LinearLayout
+         android:id="@+id/location_header"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/set_location_header_height"
+         android:orientation="horizontal"
+         android:gravity="center_vertical"
+         android:paddingLeft="@dimen/activity_horizontal_margin"
+         android:paddingRight="@dimen/activity_horizontal_margin">
+
+         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_person_white"/>
+
+         <EditText
+            android:id="@+id/contact_number_field"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:hint="@string/set_flow_name_mdn_hint"
+            android:textColorHint="@color/light_gray"
+            android:textColor="@android:color/white"
+            android:inputType="phone"/>
+
+      </LinearLayout>
+
+      <RelativeLayout
+         android:id="@id/bottom_button"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/card_block_height"
+         android:layout_alignParentBottom="true"
+         android:paddingLeft="@dimen/activity_horizontal_margin"
+         android:paddingRight="@dimen/activity_horizontal_margin"
+         android:paddingTop="@dimen/activity_vertical_margin"
+         android:paddingBottom="@dimen/activity_vertical_margin"
+         android:layout_marginLeft="1dp"
+         android:layout_marginRight="1dp"
+         android:layout_marginBottom="1dp"
+         android:background="@android:color/white">
+
+         <EditText
+            android:layout_alignParentTop="true"
+            android:id="@+id/flow_name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:hint="@string/set_flow_name_enter_name"/>
+
+         <Button
+            android:id="@+id/save_flow_button"
+            android:layout_below="@id/flow_name_field"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bottom_flat_button_azure"
+            android:text="@string/set_flow_name_continue_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/standard_font_size" />
+
+      </RelativeLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>

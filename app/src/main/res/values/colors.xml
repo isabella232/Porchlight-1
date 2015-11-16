@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/mainPurple</color>
+    <color name="colorPrimaryDark">@color/mainPurpleDark</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">@android:color/white</color>
+    <color name="mainButtonBackgroundColor">@color/mainMagenta</color>
+    <color name="mainButtonSelectedBackgroundColor">@color/mainMagentaDark</color>
+    <color name="mainMagenta">#D667CD</color>
+    <color name="mainMagentaDark">#D64BCB</color>
+    <color name="mainPurple">#9885E1</color>
+    <color name="mainPurpleDark">#785BE3</color>
+    <color name="mainBlue">#57D1C2</color>
+    <color name="mainBlueDark">#34d1bf</color>
+    <color name="light_gray">#F6F6F6</color>
+</resources>
