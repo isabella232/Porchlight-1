@@ -9,3 +9,7 @@ We were four people: a project manager, a designer, a backend engineer and a fro
 
 [1]: http://locationlabs.com/
 [2]: http://www.eventbrite.com/e/att-mobile-app-hackathon-new-york-city-tickets-18849801263
+
+
+Repo forked from: https://github.com/julienbiral/Porchlight 
+
