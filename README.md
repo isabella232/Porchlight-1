@@ -25,7 +25,7 @@ We were four people from [Location Labs][1]: a project manager, a product manage
 
 ## License
 ```
-Copyright 2015 Julien Biral
+Copyright 2015 Location Labs, Julien Biral
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
